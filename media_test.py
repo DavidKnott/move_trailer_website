@@ -33,6 +33,5 @@ class MediaTests(unittest.TestCase):
     def test_movie_has_youtube_trailer_url(self):
         self.assertEqual('https://www.youtube.com/watch?v=IFwE3UgCMIk', self.movie.youtube_trailer_url)
         
-
 if __name__ == '__main__':
     unittest.main()
